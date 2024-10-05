@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide scrollbar by default and show it when scrolling */
+.scrollbar-hide::-webkit-scrollbar {
+  width: 0; /* Hide scrollbar for WebKit browsers (Chrome, Safari) */
+}
+
+.scrollbar-hide {
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background-color: #f3f4f6; /* This is bg-gray-100 */
+}
